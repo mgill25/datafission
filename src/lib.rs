@@ -4,6 +4,7 @@ struct RecordBatch {
 
 }
 
+#[allow(dead_code)]
 impl RecordBatch {
     fn empty() -> Self {
         Self{}
