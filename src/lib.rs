@@ -1,7 +1,7 @@
-mod parquet_reader;
 mod array;
-mod schema;
 mod datatype;
+mod parquet_reader;
+mod schema;
 
 #[derive(Debug, PartialEq)]
 struct RecordBatch {}

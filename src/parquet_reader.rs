@@ -16,7 +16,6 @@ mod tests {
     use crate::parquet_reader::create_parquet_reader;
     use parquet::file::reader::{FileReader, SerializedFileReader};
     use std::fs::File;
-    use parquet::record::Row;
 
     #[test]
     fn it_can_read_parquet_file() {
